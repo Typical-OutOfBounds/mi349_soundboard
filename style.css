@@ -19,6 +19,8 @@ div {
     align-items: center;
     vertical-align: middle;
     width: 100%;
+    border-bottom: 5px solid lightsalmon;
+    padding-bottom: 35px;
 }
 
 #title {
