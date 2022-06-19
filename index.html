@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="soundboard.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 id="title">Soundboard</h1>
+    <div id="container">
+        <button id="button1" onclick="gameSoundOne()" onmouseover="gameSoundTwo()">Game</button>
+        <button id="button2" onclick="classicalSoundOne()" onmouseover="classicalSoundTwo()">Classical</button>
+        <button id="button3" onclick="outdoorsSoundOne()" onmouseover="outdoorsSoundTwo()">Outdoors</button>
+    </div>
+    <audio id="audio">
+
+    </audio>
 </body>
 </html>
